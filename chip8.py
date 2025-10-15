@@ -17,10 +17,7 @@ while running:
             running = False
 
 
-    screen.fill("purple")
-
 
     clock.tick(60)
 #Ne pas supprimer éssentiel au programme d'initialisation
-running()
 pygame.quit
