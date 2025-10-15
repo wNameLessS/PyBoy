@@ -36,6 +36,7 @@ memory = [0] * 4096
 for i, byte in enumerate(chip8_fontset):
     memory[0x50 + i] = byte
 
+#Sound Timer 8 bits:
 
 
 
