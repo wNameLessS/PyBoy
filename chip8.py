@@ -9,7 +9,7 @@ pygame.init
 screen = pygame.display.set_mode((900,900))
 clock = pygame.time.Clock()
 running = True
-
+pygame.display.set_caption('Chip8')
 while running:
 
     for event in pygame.event.get():
